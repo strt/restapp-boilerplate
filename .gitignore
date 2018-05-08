@@ -10,3 +10,6 @@ dist
 .dev_properties.json
 
 *.iml
+
+# Misc
+.vscode
