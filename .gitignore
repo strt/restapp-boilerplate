@@ -13,3 +13,4 @@ dist
 
 # Misc
 .vscode
+yarn-error.log
