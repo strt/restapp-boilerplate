@@ -1,0 +1,9 @@
+{
+  "extends": "strt-sitevision",
+  "plugins": [
+    "prettier"
+  ],
+  "rules": {
+    "max-len": "off"
+  }
+}

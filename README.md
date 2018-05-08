@@ -1,7 +1,7 @@
 # restapp-boilerplate
 Boilerplate code for a simple RESTApp
 ## Setup
-* `git clone https://github.com/sitevision/restapp-boilerplate.git`
+* `git clone https://github.com/strt/restapp-boilerplate.git`
 * `cd restapp-boilerplate`
 * `npm install`
 * `npm run setup`
