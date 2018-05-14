@@ -2,20 +2,10 @@
   'use strict';
 
   var router = require('router');
+  var controller = require('/module/controller');
 
-  router.get('/myroute', function (req, res) {
-    res.json({ message: 'Hello from GET' });
-  });
-
-  router.post('/myroute', function (req, res) {
-    res.json({ message: 'Hello from POST' });
-  });
-
-  router.put('/myroute', function (req, res) {
-    res.json({ message: 'Hello from PUT' });
-  });
-
-  router.delete('/myroute', function (req, res) {
-    res.json({ message: 'Hello from DELETE' });
-  });
+  router.get('/myroute', controller.get);
+  router.post('/myroute', controller.post);
+  router.put('/myroute', controller.put);
+  router.delete('/myroute', controller.delete);
 }());
