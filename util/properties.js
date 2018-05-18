@@ -3,7 +3,7 @@ var jsonfile = require('jsonfile');
 const DEV_PROPERTIES = './.dev_properties.json';
 const MANIFEST = './src/manifest.json';
 const DIST_DIR_PATH = './dist';
-const SRC_DIR_PATH  = './src';
+const SRC_DIR_PATH = './compiled';
 
 module.exports = {
    DEV_PROPERTIES: DEV_PROPERTIES,
