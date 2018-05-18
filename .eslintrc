@@ -1,9 +1,32 @@
 {
-  "extends": "strt-sitevision",
-  "plugins": [
-    "prettier"
-  ],
+  "extends": "airbnb-base/legacy",
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "script"
+  },
+  "env": {
+    "es6": true,
+    "amd": true
+  },
+  "plugins": ["prettier"],
   "rules": {
-    "max-len": "off"
+    "max-len": "off",
+    "vars-on-top": 0,
+    "func-names": 0,
+    "global-require": 0,
+    "comma-dangle": [
+      "error",
+      {
+        "objects": "always-multiline",
+        "arrays": "always-multiline",
+        "functions": "ignore"
+      }
+    ]
+  },
+  "globals": {
+    "out": true,
+    "print": true,
+    "request": true,
+    "scriptVariables": true
   }
 }
