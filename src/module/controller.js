@@ -2,19 +2,28 @@
 
 define(function (require) {
   class Controller {
+    list(req, res) {
+      // Handle listing all the resources.
+      res.json({ message: 'Hello from LIST' });
+    }
+
     get(req, res) {
+      // Handle listing a specific resource.
       res.json({ message: 'Hello from GET' });
     }
 
-    post(req, res) {
-      res.json({ message: 'Hello from POST' });
+    create(req, res) {
+      // Handle creating a new resource.
+      res.json({ message: 'Hello from CREATE' });
     }
 
-    put(req, res) {
-      res.json({ message: 'Hello from PUT' });
+    update(req, res) {
+      // Handle updating an existing resource.
+      res.json({ message: 'Hello from UPDATE' });
     }
 
     delete(req, res) {
+      // Handle deleting an existing resource.
       res.json({ message: 'Hello from DELETE' });
     }
   }
