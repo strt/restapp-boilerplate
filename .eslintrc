@@ -14,6 +14,7 @@
     "vars-on-top": 0,
     "func-names": 0,
     "global-require": 0,
+    "import/no-absolute-path": 0,
     "comma-dangle": [
       "error",
       {
