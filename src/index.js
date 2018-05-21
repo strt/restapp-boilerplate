@@ -1,3 +1,5 @@
+'use strict';
+
 (function () {
   var router = require('router');
   var controller = require('/module/controller');
