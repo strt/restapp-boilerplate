@@ -1,8 +1,8 @@
 'use strict';
 
 (function () {
-  var router = require('router');
-  var controller = require('/module/controller');
+  const router = require('router');
+  const controller = require('/module/controller');
 
   router.get('/', controller.list.bind(controller));
   router.get('/:id', controller.get.bind(controller));
