@@ -20,13 +20,17 @@
   },
   "license": "MIT",
   "author": "Strateg AB",
-  "contributors": ["Alexander Karlsson <alexander.karlsson@strateg.se>"],
+  "contributors": [
+    "Alexander Karlsson <alexander.karlsson@strateg.se>"
+  ],
   "bugs": {
     "url": "https://github.com/strt/restapp-boilerplate/issues"
   },
   "homepage": "https://github.com/strt/restapp-boilerplate#readme",
   "devDependencies": {
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0-beta.47",
     "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-assign": "^6.22.0",
     "babel-preset-env": "^1.7.0",
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "^16.1.0",
@@ -41,6 +45,9 @@
     "zip-dir": "^1.0.2"
   },
   "lint-staged": {
-    "src/**/*.js": ["eslint --config '.eslintrc' --fix", "git add"]
+    "src/**/*.js": [
+      "eslint --config '.eslintrc' --fix",
+      "git add"
+    ]
   }
 }

@@ -8,6 +8,10 @@
   dependencies:
     "@babel/highlight" "7.0.0-beta.47"
 
+"@babel/helper-plugin-utils@7.0.0-beta.47":
+  version "7.0.0-beta.47"
+  resolved "https://registry.yarnpkg.com/@babel/helper-plugin-utils/-/helper-plugin-utils-7.0.0-beta.47.tgz#4f564117ec39f96cf60fafcde35c9ddce0e008fd"
+
 "@babel/highlight@7.0.0-beta.47":
   version "7.0.0-beta.47"
   resolved "https://registry.yarnpkg.com/@babel/highlight/-/highlight-7.0.0-beta.47.tgz#8fbc83fb2a21f0bd2b95cdbeb238cf9689cad494"
@@ -15,6 +19,19 @@
     chalk "^2.0.0"
     esutils "^2.0.2"
     js-tokens "^3.0.0"
+
+"@babel/plugin-proposal-object-rest-spread@^7.0.0-beta.47":
+  version "7.0.0-beta.47"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-object-rest-spread/-/plugin-proposal-object-rest-spread-7.0.0-beta.47.tgz#e1529fddc88e948868ee1d0edaa27ebd9502322d"
+  dependencies:
+    "@babel/helper-plugin-utils" "7.0.0-beta.47"
+    "@babel/plugin-syntax-object-rest-spread" "7.0.0-beta.47"
+
+"@babel/plugin-syntax-object-rest-spread@7.0.0-beta.47":
+  version "7.0.0-beta.47"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-object-rest-spread/-/plugin-syntax-object-rest-spread-7.0.0-beta.47.tgz#21da514d94c138b2261ca09f0dec9abadce16185"
+  dependencies:
+    "@babel/helper-plugin-utils" "7.0.0-beta.47"
 
 abab@^1.0.4:
   version "1.0.4"
@@ -572,6 +589,12 @@ babel-plugin-transform-exponentiation-operator@^6.22.0:
   dependencies:
     babel-helper-builder-binary-assignment-operator-visitor "^6.24.1"
     babel-plugin-syntax-exponentiation-operator "^6.8.0"
+    babel-runtime "^6.22.0"
+
+babel-plugin-transform-object-assign@^6.22.0:
+  version "6.22.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-transform-object-assign/-/babel-plugin-transform-object-assign-6.22.0.tgz#f99d2f66f1a0b0d498e346c5359684740caa20ba"
+  dependencies:
     babel-runtime "^6.22.0"
 
 babel-plugin-transform-regenerator@^6.22.0:
