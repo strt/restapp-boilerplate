@@ -2,7 +2,6 @@
   "name": "restapp-boilerplate",
   "version": "1.1.0",
   "description": "A RESTApp boilerplate",
-  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/strt/restapp-boilerplate.git"
