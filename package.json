@@ -15,7 +15,7 @@
     "create-addon": "node util/create-addon.js",
     "sign": "npm run zip && node util/sign.js",
     "prod-deploy": "node util/prod-deploy.js",
-    "transpile": "./node_modules/.bin/babel ./src -d ./compiled --copy-files",
+    "transpile": "npx babel ./src -d ./compiled --copy-files",
     "precommit": "lint-staged"
   },
   "license": "MIT",
