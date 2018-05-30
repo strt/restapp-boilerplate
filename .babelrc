@@ -2,6 +2,7 @@
   "presets": ["env"],
   "plugins": [
     "transform-object-assign",
-    "babel-plugin-transform-object-rest-spread"
+    "transform-object-rest-spread",
+    "transform-es2017-object-entries"
   ]
 }
