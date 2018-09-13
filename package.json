@@ -1,6 +1,6 @@
 {
   "name": "restapp-boilerplate",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "A RESTApp boilerplate",
   "repository": {
     "type": "git",
@@ -21,31 +21,36 @@
   "author": "Strateg Marknadsföring AB",
   "contributors": [
     "Alexander Karlsson <alexander.karlsson@strateg.se>",
-    "Alexander Nanberg <alexander.nanberg@strateg.se>"
+    "Alexander Nanberg <alexander.nanberg@strateg.se>",
+    "Jesper Johansson <jesper.johansson@strateg.se>"
   ],
   "bugs": {
     "url": "https://github.com/strt/restapp-boilerplate/issues"
   },
   "homepage": "https://github.com/strt/restapp-boilerplate#readme",
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-plugin-transform-es2017-object-entries": "^0.0.4",
-    "babel-plugin-transform-object-assign": "^6.22.0",
-    "babel-plugin-transform-object-rest-spread": "^6.26.0",
-    "babel-preset-env": "^1.7.0",
-    "eslint": "^4.19.1",
-    "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-plugin-import": "^2.11.0",
-    "eslint-plugin-prettier": "^2.6.0",
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-transform-object-assign": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "babel-eslint": "^9.0.0",
+    "eslint": "^5.5.0",
+    "eslint-config-strateg": "^1.0.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-prettier": "^2.6.2",
     "husky": "^0.14.3",
     "inquirer": "^5.2.0",
     "jsonfile": "^4.0.0",
     "lint-staged": "^7.0.5",
-    "prettier": "^1.12.1",
+    "prettier": "^1.14.2",
     "request": "^2.87.0",
     "zip-dir": "^1.0.2"
   },
   "lint-staged": {
-    "src/**/*.js": ["eslint --config '.eslintrc' --fix", "git add"]
+    "src/**/*.js": [
+      "eslint --config '.eslintrc' --fix",
+      "git add"
+    ]
   }
 }

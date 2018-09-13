@@ -1,33 +1,11 @@
 {
-  "extends": "airbnb-base/legacy",
+  "extends": "strateg/sitevision",
+  "parser": "babel-eslint",
   "parserOptions": {
-    "ecmaVersion": 6,
-    "sourceType": "script"
+    "ecmaVersion": 6
   },
   "env": {
-    "es6": true,
-    "amd": true
-  },
-  "plugins": ["prettier"],
-  "rules": {
-    "max-len": "off",
-    "vars-on-top": 0,
-    "func-names": 0,
-    "global-require": 0,
-    "import/no-absolute-path": 0,
-    "comma-dangle": [
-      "error",
-      {
-        "objects": "always-multiline",
-        "arrays": "always-multiline",
-        "functions": "ignore"
-      }
-    ]
-  },
-  "globals": {
-    "out": true,
-    "print": true,
-    "request": true,
-    "scriptVariables": true
+    "amd": true,
+    "nashorn": false
   }
 }
