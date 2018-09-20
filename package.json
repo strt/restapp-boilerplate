@@ -1,6 +1,6 @@
 {
   "name": "restapp-boilerplate",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A RESTApp boilerplate",
   "repository": {
     "type": "git",
@@ -48,9 +48,6 @@
     "zip-dir": "^1.0.2"
   },
   "lint-staged": {
-    "src/**/*.js": [
-      "eslint --config '.eslintrc' --fix",
-      "git add"
-    ]
+    "src/**/*.js": ["eslint --config '.eslintrc' --fix", "git add"]
   }
 }

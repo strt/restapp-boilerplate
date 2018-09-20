@@ -1,5 +1,8 @@
-define(function () {
+define(function (require) {
   class Controller {
+    // Allows you to access configuration data.
+    appData = require('appData');
+
     list = (req, res) => {
       // Handle listing all the resources.
       res.json({ message: 'Hello from LIST' });
