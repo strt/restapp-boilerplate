@@ -14,7 +14,7 @@
     "create-addon": "node util/create-addon.js",
     "sign": "npm run zip && node util/sign.js",
     "prod-deploy": "node util/prod-deploy.js",
-    "transpile": "npx babel ./src -d ./compiled --copy-files",
+    "transpile": "npx babel ./src -d ./compiled --copy-files --delete-dir-on-start",
     "precommit": "lint-staged"
   },
   "license": "MIT",
@@ -48,6 +48,9 @@
     "zip-dir": "^1.0.2"
   },
   "lint-staged": {
-    "src/**/*.js": ["eslint --config '.eslintrc' --fix", "git add"]
+    "src/**/*.js": [
+      "eslint --config '.eslintrc' --fix",
+      "git add"
+    ]
   }
 }
