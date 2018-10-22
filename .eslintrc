@@ -1,5 +1,6 @@
 {
   "extends": "strateg/sitevision",
+  "parser": "babel-eslint",
   "parserOptions": {
     "ecmaVersion": 6
   },
