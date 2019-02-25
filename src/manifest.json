@@ -2,7 +2,7 @@
   "id": "restAppBoilerplate",
   "version": "1.0.0",
   "name": "RESTApp boilerplate",
-  "author": ["Alexander Karlsson <alexander.karlsson@strateg.se>"],
+  "author": ["Strateg Marknadsföring <development@strateg.se>"],
   "description": "A RESTApp boilerplate",
   "helpUrl": "https://help.sitevision.se/restapps",
   "type": "RESTApp"

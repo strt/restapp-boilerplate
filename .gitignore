@@ -4,12 +4,9 @@ node_modules
 
 # Compiled Directories
 dist
-compiled
 
 # User information, do not commit
-.dev_properties.json
-
-*.iml
+.env
 
 # Misc
 .DS_Store
